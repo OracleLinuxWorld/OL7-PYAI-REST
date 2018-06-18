@@ -2,7 +2,7 @@ FROM louwersj/ol7-pyai
 
 MAINTAINER Johan Louwers Capgemini version: 0.1
 
-pip3.6 install virtualenv &&\
+RUN pip3.6 install virtualenv &&\
 cd / &&\
 virtualenv myprojectenv &&\
 source myprojectenv/bin/activate &&\
