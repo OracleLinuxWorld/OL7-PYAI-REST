@@ -6,7 +6,7 @@ RUN pip3.6 install virtualenv &&\
 cd / &&\
 virtualenv myprojectenv &&\
 source myprojectenv/bin/activate &&\
-pip3.6 install gunicorn flask &&\
+pip3.6 install gunicorn flask
 
 #ENV APACHE_RUN_USER www-data
 #ENV APACHE_RUN_GROUP www-data
